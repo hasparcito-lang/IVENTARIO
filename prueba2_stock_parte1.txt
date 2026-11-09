@@ -1,0 +1,17 @@
+PHPUnit 6.5.13 by Sebastian Bergmann and contributors.
+
+s\Feature\Stock
+ [x] store creates lot with current equal to quantity
+ [x] store reprices open lots of same product only
+ [x] store validation
+ [x] stock update adds quantity
+ [x] stock update subtracts quantity
+ [x] stock update cannot subtract more than current
+ [x] stock update requires fields
+ [ ] stock update with unknown id returns json error not 500
+ [x] chalan list only lots with remaining quantity
+ [x] stock list filters by vendor
+ [x] update stock info
+ [x] delete blocked when lot has sales
+ [x] delete ok without sales
+

@@ -1,0 +1,9 @@
+PHPUnit 6.5.13 by Sebastian Bergmann and contributors.
+
+s\Feature\Invoice
+ [x] store fully paid invoice for existing customer
+ [x] failed invoice rolls back everything
+ [ ] cannot sell more than available stock
+ [x] update restocks old quantities and applies new ones
+ [x] destroy restores stock and removes details and payments
+

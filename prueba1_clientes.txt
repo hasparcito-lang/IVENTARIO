@@ -1,0 +1,12 @@
+PHPUnit 6.5.13 by Sebastian Bergmann and contributors.
+
+s\Feature\Catalog
+ [x] customer store ok
+ [x] customer store rejects bad email and non numeric phone
+ [x] customer store rejects duplicate email and phone
+ [x] customer list returns totals
+ [ ] customer update rejects phone owned by another customer
+
+s\Feature\Invoice
+ [x] new customer is created with invoice
+
